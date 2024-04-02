@@ -1,0 +1,29 @@
+{
+  "name": "@ims-view/prettier-config",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.6.0",
+  "description": "Prettier config for @ims",
+  "license": "MIT",
+  "homepage": "https://github.com/eternallycyf/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/eternallycyf/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternallycyf/prettier-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.1.1",
+    "prettier": "^2.8.8"
+  },
+  "prettier": "./index.js"
+}
